@@ -6,9 +6,22 @@ body {
     justify-content: center;
 }
 
+h1 {
+    color: #e8a7c9;
+}
+
+h2 {
+    color: #e8a7c9;
+}
+
+p {
+    color: #e8a7c9;
+}
+
 #main-container {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
+    flex-direction: column;
     height: 2000px;
     background-color: #fffded;
     width: 1024px;
@@ -40,10 +53,63 @@ li {
     
 }
 
-img {
+/* img {
     width: 200px;
     height: 150px;
     padding: 50px;
     margin-top: 150px;
    
+} */
+#about-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 550px;
+    width: 100%;
 }
+
+#logo-about {
+    height: 520px;
+    width:570px;
+    /* border: solid 1px red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+#logo-title {
+    height: 240px;
+    width: 340px;
+    /* border: solid 1px blue ; */
+    padding-top: 75px;
+  justify-content: flex-start;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+
+}
+
+#rectangle-1 {
+    height: 151px;
+    width: 1024px;
+    background-color: #ebe5d6;
+}
+
+#prev-works-sec {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 1px purple
+}
+
+#digital-text {
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 200px;
+    border: solid 1px green;
+    justify-content:space-between;
+    align-items: center;
+}
+
