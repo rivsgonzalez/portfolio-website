@@ -107,9 +107,10 @@ li {
 #digital-text {
     display: flex;
     justify-content: flex-start;
-    padding-left: 200px;
     border: solid 1px green;
     justify-content:space-between;
     align-items: center;
+    padding-right: 150px;
+    padding-left: 150px;
 }
 
