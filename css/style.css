@@ -14,6 +14,10 @@ h2 {
     color: #e8a7c9;
 }
 
+h3 {
+    color: #e8a7c9;
+}
+
 p {
     color: #e8a7c9;
 }
@@ -22,7 +26,7 @@ p {
     display: flex;
     justify-content: flex-start;
     flex-direction: column;
-    height: 2000px;
+    height: 5023px;
     background-color: #fffded;
     width: 1024px;
     border: solid 1px black;
@@ -45,6 +49,7 @@ ul {
     display: flex;
     flex-direction: row;
  justify-content: space-around;
+ color: #e8a7c9;
 }
 
 li {
@@ -113,4 +118,61 @@ li {
     padding-right: 150px;
     padding-left: 150px;
 }
+
+#digital-images {
+flex-direction: column;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 150px;
+    padding-right: 150px;
+    padding-left: 150px;
+    justify-content: start;
+    border: steelblue solid 1px;
+}
+#traditional-images {
+    flex-direction: column;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 150px;
+    padding-right: 150px;
+    padding-left: 150px;
+    justify-content: end;
+    border: tomato solid 1px;
+}
+
+#rectangle-2 {
+    height: 151px;
+    width: 1024px;
+    background-color: #ebe5d6;
+}
+
+#skills-sec {
+    justify-content: center;
+    align-items: center;
+    height: 550px;
+    width: 100%;
+}
+
+#rectangle-3 {
+    height: 151px;
+    width: 1024px;
+    background-color: #ebe5d6;
+}
+
+#services-sec {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 550px;
+    width: 100%;
+}
+
+#rectangle-4 {
+    height: 151px;
+    width: 1024px;
+    background-color: #ebe5d6;
+}
+
 
